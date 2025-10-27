@@ -14,15 +14,26 @@
 
 #barra {
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 400px;
     height: 60px;
     margin-top: 35px;
     border-radius: 50px;
     padding: 0;
     border: 0;
-    background-color: #003097;
+    color: white;
+    background-color: #0038b1;
+    text-align: center;
 }
+
+.inicioicon, .estudosicon, .projetosicon , .contatoicon {
+    width: 35px;
+    height: 55px;
+    background-color: #0038b1;
+    margin: 5px;
+}
+
+
 
 #introducao {
     height: 85vh;
