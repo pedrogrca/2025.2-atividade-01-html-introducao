@@ -2,35 +2,9 @@
 
 * {
     font-family: "Poppins", sans-serif;
-    color: white;
-    background-color: #002370;
-}
-
-#menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#barra {
-    align-items: center;
-    justify-content: space-evenly;
-    width: 400px;
-    height: 60px;
-    margin-top: 35px;
-    border-radius: 50px;
-    padding: 0;
-    border: 0;
-    color: white;
-    background-color: #0038b1;
-    text-align: center;
-}
-
-.inicioicon, .estudosicon, .projetosicon , .contatoicon {
-    width: 35px;
-    height: 55px;
-    background-color: #0038b1;
-    margin: 5px;
+    color: #F9F9F9;
+    text-decoration: none;
+    margin: 0;
 }
 
 
@@ -40,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #002370;
 }
 
 #textos-intro {
@@ -67,31 +41,55 @@ img {
 }
 
 
-button {
-    border-radius: 20px;
-    border: 2px solid white;
-    width: 150px;
-    height: 50px;
-    font-size: 25px;
+#estudos {
+    height: 70vh;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-button:hover {
-    color: blue;
-    background-color: white;
-    transition: color 0.4s ease-out;
+.estudostext {
+    color: #002370;
+    margin-top: 15px;
 }
 
-#estudos {
-    height: 50vh;
+#estudosh1 {
+    font-size: 42px;
+    margin-bottom: 50px;
 }
 
-#meus-projetos {
-    height: 50vh;
+#estudosp {
+    margin-bottom: 70px;
 }
 
 
 #contatos {
-    height: 50vh;
+    height: 20vh;
+    background-color: #002370;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contatos a {
+    background-color: #002370;
+    width: 230px;
+    height: 45px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#contatos a:hover {
+    color: #002370;
+    background-color: #F9F9F9;
+    transition: color 0.4s ease-out;
 }
